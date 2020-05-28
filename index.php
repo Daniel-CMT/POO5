@@ -1,7 +1,5 @@
 <?php
 
-// index.php
-
 require_once 'Vehicle.php';
 require_once 'Car.php';
 require_once 'Bike.php';
@@ -14,7 +12,7 @@ echo "Ma voiture a ses feux allumés : " . $pickUp->switchOn() . "<br>";
 
 var_dump($pickUp);
 
-echo "Ma voiture a ses feux eteints !" . $pickUp->switchOff() . "<br>";
+echo "Ma voiture a ses feux éteints !" . $pickUp->switchOff() . "<br>";
 
 var_dump($pickUp);
 
